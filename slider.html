@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>slider</title>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+    *
+        {
+         margin:0px;
+         margin:0px;
+        }
+        .slider{
+        margin:0px;
+        height:650px;
+        width:100%;
+        background-color:gray;
+        overflow:hidden;
+        }
+        .sliderchild{
+        height:650px;
+        width:500%;
+        background-color:green;
+        animation:slider infinite 20s 2s;
+
+        /*code_optimzation*/
+        /*We can also write*/
+        /*animation-name:slider;*/
+        /*animation-iteration-count:infinite;*/
+        }
+        .imgcon{
+        height:650px;
+        width:20%;
+        background-color:gray;
+        float:left;
+
+
+        color:white;
+        font-family:arial;
+        }
+        .imgcon:nth-child(1)
+        {
+         background-image: url('https://wallpapercave.com/wp/wp5862704.jpg');
+         background-repeat: no-repeat;
+         background-size:cover;
+        }
+        .imgcon:nth-child(2)
+        {
+         background-image: url('https://wallpapercave.com/uwp/uwp16202.jpeg');
+         background-repeat: no-repeat;
+         background-size:cover;
+        }
+        .imgcon:nth-child(3)
+        {
+         background-image: url('https://wallpapercave.com/wp/d63TcJV.jpg');
+         background-repeat: no-repeat;
+         background-size:cover;
+        }
+        .imgcon:nth-child(4)
+        {
+         background-image: url('https://wallpapercave.com/uwp/uwp16223.jpeg');
+         background-repeat: no-repeat;
+         background-size:cover;
+        }
+        .imgcon:nth-child(5)
+        {
+         background-image: url('https://wallpapercave.com/wp/wp5862704.jpg');
+         background-repeat: no-repeat;
+         background-size:cover;
+        }
+        @keyframes slider{
+            12.5%
+            {
+                margin-left:-100%;
+            }
+            25%
+            {
+                margin-left:-100%;
+            }
+            37.5%
+            {
+                margin-left:-200%;
+            }
+            50%
+            {
+                margin-left:-200%;
+            }
+            62.5%
+            {
+                margin-left:-300%;
+            }
+            75%
+            {
+                margin-left:-300%;
+            }
+            87.5%
+            {
+                margin-left:-400%;
+            }
+            100%
+            {
+                margin-left:-400%;
+            }
+        }
+        .same{
+        font-family:arial;
+        font-size:20px;
+        padding-left:20px;
+        padding-top:500px;
+        color:black;
+        }
+
+        .list ul {
+        list-style:none;
+        display:flex;
+        padding-left:20px;
+        padding-bottom:5px;
+        }
+
+        .list ul li{
+        padding-right:30px;
+        padding-top:20px;
+        padding-bottom:10px;
+        font-family:arial;
+        font-size:27px;
+        opacity:0.9;
+        }
+        .list{
+        background-color:#e6eeff;
+        width-50%;
+        float:right;
+        padding-left:-20px;
+        }
+        .main1{
+        background-color:;
+        width:50%;
+        float:left;
+        font-family:arial;
+        font-size:35px;
+        padding-top:10px;
+        padding-left:20px;
+        padding-bottom:10px;
+        color:#ff1a1a;
+        background-color:#e6eeff;
+        }
+        .bgcl{
+        background-color:#e6eeff;
+        }
+    </style>
+</head>
+<body class="bgcl">
+
+<p class ="main1">Fancy Bazaar</p>
+
+<section>
+<div class="list">
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Member</li>
+        <li>Client</li>
+        <li>Address</li>
+        <li>Contact</li>
+    </ul>
+    </div>
+</section>
+
+
+
+<div class="slider">
+    <div class="sliderchild">
+        <div class="imgcon">
+            <p class="same">this is a sample text,this is a sample text <br> this is a sample text</p>
+
+        </div>
+        <div class="imgcon">
+            <p class="same">this is a sample text,this is a sample text <br> this is a sample text</p>
+
+        </div>
+        <div class="imgcon">
+            <p class="same">this is a sample text,this is a sample text <br> this is a sample text</p>
+
+        </div>
+        <div class="imgcon">
+            <p class="same">this is a sample text,this is a sample text <br> this is a sample text</p>
+
+        </div>
+        <div class="imgcon">
+            <p class="same">this is a sample text,this is a sample text <br> this is a sample text</p>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
