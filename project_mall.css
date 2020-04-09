@@ -1,0 +1,141 @@
+*
+        {
+         margin:0px;
+         margin:0px;
+        }
+        .slider{
+        margin:0px;
+        height:650px;
+        width:100%;
+        background-color:gray;
+        overflow:hidden;
+        }
+        .sliderchild{
+        height:650px;
+        width:500%;
+        background-color:green;
+        animation:slider infinite 20s 2s;
+
+        /*code_optimzation*/
+        /*We can also write*/
+        /*animation-name:slider;*/
+        /*animation-iteration-count:infinite;*/
+        }
+        .imgcon{
+        height:650px;
+        width:20%;
+        background-color:gray;
+        float:left;
+
+
+        color:white;
+        font-family:arial;
+        }
+        .imgcon:nth-child(1)
+        {
+         background-image: url('slider/mo1.jpg');
+         background-repeat: no-repeat;
+         background-size:cover;
+        }
+        .imgcon:nth-child(2)
+        {
+         background-image: url('slider/mo2.jpg');
+         background-repeat: no-repeat;
+         background-size:cover;
+        }
+        .imgcon:nth-child(3)
+        {
+         background-image: url('slider/mo3.jpg');
+         background-repeat: no-repeat;
+         background-size:cover;
+        }
+        .imgcon:nth-child(4)
+        {
+         background-image: url('slider/mo4.jpg');
+         background-repeat: no-repeat;
+         background-size:cover;
+        }
+        .imgcon:nth-child(5)
+        {
+         background-image: url('slider/mo1.jpg');
+         background-repeat: no-repeat;
+         background-size:cover;
+        }
+        @keyframes slider{
+            12.5%
+            {
+                margin-left:-100%;
+            }
+            25%
+            {
+                margin-left:-100%;
+            }
+            37.5%
+            {
+                margin-left:-200%;
+            }
+            50%
+            {
+                margin-left:-200%;
+            }
+            62.5%
+            {
+                margin-left:-300%;
+            }
+            75%
+            {
+                margin-left:-300%;
+            }
+            87.5%
+            {
+                margin-left:-400%;
+            }
+            100%
+            {
+                margin-left:-400%;
+            }
+        }
+        .same{
+        font-family:arial;
+        font-size:20px;
+        padding-left:20px;
+        padding-top:500px;
+        color:black;
+        }
+
+        .list ul {
+        list-style:none;
+        display:flex;
+        padding-left:20px;
+        padding-bottom:5px;
+        }
+
+        .list ul li{
+        padding-right:40px;
+        padding-top:20px;
+        padding-bottom:10px;
+        font-family:arial;
+        font-size:20px;
+        opacity:0.9;
+        }
+        .list{
+        background-color:#e6eeff;
+        width-50%;
+        float:right;
+        padding-left:-20px;
+        }
+        .main1{
+        background-color:;
+        width:50%;
+        float:left;
+        font-family:arial;
+        font-size:35px;
+        padding-top:10px;
+        padding-left:20px;
+        padding-bottom:10px;
+        color:#ff1a1a;
+        background-color:#e6eeff;
+        }
+        .bgcl{
+        background-color:#e6eeff;
+        }
