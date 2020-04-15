@@ -125,7 +125,6 @@
         padding-left:-20px;
         }
         .main1{
-        background-color:;
         width:50%;
         float:left;
         font-family:arial;
@@ -133,9 +132,157 @@
         padding-top:10px;
         padding-left:20px;
         padding-bottom:10px;
-        color:#ff1a1a;
+        color:;
         background-color:#e6eeff;
         }
         .bgcl{
         background-color:#e6eeff;
         }
+        /*downloaded my own font and place it in the same folder.
+        this is ilustrated below.*/
+        @font-face{
+            font-family:raj;
+            src:url("great_fonts.ttf");
+        }
+        .main2{
+            text-align:center;
+            font-family: raj;
+            padding-bottom: 50px;
+        }
+
+        #main2{
+            font-size: 80px;
+            padding-top: 80px;
+
+        }
+        #welco{
+            font-size:30px;
+        }
+        .parag{
+            border-style:solid;
+            border-radius: 5px;
+            border-left-width :8px;
+            border-top-width:0.5px;
+            border-right-width:0.5px;
+            border-bottom-width:0.5px;
+            border-left-color: #3333ff;
+            border-top-color:rgba(0, 0, 0, 0.1);
+            border-bottom-color:rgba(0, 0, 0, 0.1);
+            border-right-color:rgba(0, 0, 0, 0.1);
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 20px; 
+        }
+              
+        .para1{
+            font-family: arial;
+            font-size: 21px;
+            opacity: 0.8;
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .main22{
+        	text-align:center;
+            font-family:raj;
+            font-size:35px;
+        }
+        .butt{
+        	background-image: url('slider/mo1.jpg');
+        	background-size:cover;
+        	padding-bottom: 220px;
+        	padding-top: 300px;
+        	padding-right: 180px;
+        	padding-left: 180px;
+        	margin-left: 180px;
+        	margin-top: 30px;
+        	margin-bottom: 30px;
+        	border-radius: 15px;
+        	margin-bottom: 70px;
+        	border-style: none;
+        	transition: 1s;
+
+        	
+        }
+
+        .butt:hover{
+        	transform: scale(1.1);
+        	box-shadow: 2px 2px 2px #000;
+        	z-index: 2;
+        	transition: 450ms;
+        }
+        .sample1{
+        	float:left;
+        	width:50%;
+           border: none;
+        }
+        .sample2{
+        	float:right;
+        	width:50%;
+		    border: none;
+        }
+        .sample3{
+			border: none;
+        	padding-left: 380px;
+        }
+        .more{
+            padding-left: 980px;
+        }
+        .more p{
+            font-size: 29px;
+            font-family: raj;
+            padding-bottom: 22px;
+        }
+
+        
+        .main33 p{
+           text-align:center;
+           font-family: arial;
+           font-size: 25px;
+           padding-top: 20px;
+           padding-bottom: 12px;
+        }
+
+       .name323{
+        padding-left:550px;
+        font-size: 16px;
+        font-family: arial;
+        padding-top: 10px;
+       }
+       
+       .in344in{
+        padding-left: 550px;
+        padding-top: 10px;
+       }
+       .in344in input{
+        font-size: 18px;
+        font-family: arial;
+        padding-left:190px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 5px;
+        border-style: none;
+       }
+       #apce{
+        padding-bottom: 30px;
+       }
+       #submit4{
+       padding-left: 710px;
+       padding-bottom: 30px;
+       }
+       .submit4{
+        text-align: center;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-top: 10px;
+        font-family: arial;
+        font-size: 19px;
+        border-radius: 5px;
+        border-style: none;
+        background-color:;
+       }
+       .back{
+        background-image: url('slider/mo1.jpg');
+        background-size:cover;       }
