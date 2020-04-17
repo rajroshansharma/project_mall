@@ -285,4 +285,29 @@
        }
        .back{
         background-image: url('slider/mo1.jpg');
-        background-size:cover;       }
+        background-size:cover;     
+          }
+        #add21{
+        	font-family:arial;
+        	font-size: 32px;
+        	padding-left: 77px;
+        	padding-top: 32px;
+        	padding-bottom: 10px;
+        }  
+        .adtext p{
+            font-family: arial;
+            font-size: 17px;
+            padding-top: 70px;
+            padding-bottom: 60px;
+        }
+        .adtext{
+            width: 40%;
+            float: left;
+        }
+        .maapad{
+            width: 60%;
+            float: right;
+            padding-top: 20px;
+            padding-bottom: 30px; 
+        }
+
