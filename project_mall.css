@@ -5,13 +5,13 @@
         }
         .slider{
         margin:0px;
-        height:650px;
+        height:500px;
         width:100%;
         background-color:gray;
         overflow:hidden;
         }
         .sliderchild{
-        height:650px;
+        height:500px;
         width:500%;
         background-color:green;
         animation:slider infinite 20s 2s;
@@ -176,7 +176,7 @@
               
         .para1{
             font-family: arial;
-            font-size: 21px;
+            font-size: 19px;
             opacity: 0.8;
             padding-right: 20px;
             padding-left: 20px;
@@ -310,38 +310,98 @@
             padding-top: 20px;
             padding-bottom: 10px; 
         }
-        .tag289{
-            font-family: arial;
+       
+
+        
+        hr.style-one {
+            border: 0;
+            height: 1px;
+            background: #333;
+            background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+            background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+            background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+            background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+            margin-top: 500px;
+        }
+
+        .tables{
+            padding-left: 130px;
+            padding-top: 10px;
             font-size: 17px;
-            padding-left: 80px;
+            
         }
-        .mesg52{
-            margin-left: 80px;
-            font-family: arial;
-            padding-left: 5px;
-            border-radius: 5px;
-            width: 430px;
-            height: 40px;
+        .tab132{
+            padding-top: 40px;
+            background-color:;
+            padding-right:400px;
+        }
+        .div247{
+            padding-top: 20px;
+               
+;
         }
 
-        #wid67{
-            height: 90px;
-    
-
+        .cont45{
+            padding-top: 70px;
         }
-        .submit{
-           text-align: center;
-           padding-left: 20px;
-           padding-bottom: 10px;
-           padding-right: 20px;
-           padding-top: 10px;
-           font-family: arial;
-           font-size: 19px;
-           border-radius: 5px;
-           border-style: none;
-           background-color:;
-           margin-left: 80px;
-           margin-bottom: 20px;
+        #but356{
+            padding-bottom: 24px;
         }
         
+        .list_social{
+            list-style: none;
+            opacity: 0.8;
+            display: flex;
+            background-color:  #f2f2f2;
+            padding-left: 250px;
+            padding-bottom: 20px;
+
+        }
+
+        #sconsi{
+            font-family: arial;
+            font-size: 20px;
+            padding-left: 235px;
+            padding-top: 80px;
+        }
+
+        
+        .merchant{
+            padding-left: 0px;
+            width: 50%;
+            float: right;
+            background-color:  #f2f2f2;
+            
+        }
+        .limno{
+            padding-top: 0px;
+            float: right;
+            width: 50%
+        }
+        .sencon{
+            font-family: arial;
+            padding-top: 40px;
+            padding-left: 370px;
+            padding-bottom: 15px;
+        }
+        .side88{
+            padding-left: 400px;
+            font-size: 15px;
+            font-family: arial;
+            padding-top: 10px;
+
+        }
+        .copyright{
+            padding-left: 40px;
+            padding-top: 200px;
+            padding-bottom: 10px;
+            font-size: 15px;
+            font-family: arial;
+        }
+        .right339{
+            background-color: #f2f2f2;
+        }
+
+
+
 
